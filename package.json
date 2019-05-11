@@ -10,10 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/joaomcarvalho/steemconnect.git"
   },
-  "author": "João Maurício Carvalho",
+  "author": "@joaomcarvalho",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joaomcarvalho/steemconnect/issues"
   },
-  "homepage": "https://github.com/joaomcarvalho/steemconnect#readme"
+  "homepage": "https://github.com/joaomcarvalho/steemconnect#readme",
+  "dependencies": {
+        "koa": "^2.5.3",
+        "koa-static": "^5.0.0",
+        "sc2-sdk": "^2.0.1"
+    },
+    "devDependencies": {
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.9"
+    }
 }
